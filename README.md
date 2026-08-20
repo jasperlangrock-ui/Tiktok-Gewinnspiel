@@ -28,3 +28,5 @@ npm run dev
 ## Wichtiger Hinweis zur Ziehungsfairness
 
 Die Datenbankfunktion wählt innerhalb der gespeicherten Losgewichte zufällig. Bei 1/3 Losen hat ein Teilnehmer mit 3 Losen genau das dreifache Gewicht eines Teilnehmers mit 1 Los. Für besonders streng auditierbare Gewinnspiele kann zusätzlich ein extern erzeugter, vorab veröffentlichter Zufalls-Seed/Commit-Reveal-Verfahren ergänzt werden.
+
+Update for Cloudflare build
