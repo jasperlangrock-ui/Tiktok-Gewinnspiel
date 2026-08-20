@@ -31,4 +31,4 @@ Die Datenbankfunktion wählt innerhalb der gespeicherten Losgewichte zufällig. 
 
 Update for Cloudflare build
 update
-
+deployment update
