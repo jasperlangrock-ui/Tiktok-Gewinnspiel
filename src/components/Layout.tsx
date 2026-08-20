@@ -1,0 +1,2 @@
+import {ReactNode} from 'react'; import {Gift,ShieldCheck} from './Icons';
+export function Layout({children,admin=false}:{children:ReactNode;admin?:boolean}){return <div className="app-shell"><header className="topbar"><a href="/" className="brand"><span className="brand-mark"><Gift size={20}/></span><span>TikTok Gewinnspiel</span></a>{admin&&<span className="admin-badge"><ShieldCheck size={15}/> Administrator</span>}</header><main>{children}</main><footer>Transparent. Einfach. Fair. · Keine Registrierung für Teilnehmer erforderlich.</footer></div>}
